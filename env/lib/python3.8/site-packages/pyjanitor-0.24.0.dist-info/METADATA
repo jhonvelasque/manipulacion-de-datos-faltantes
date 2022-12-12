@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pyjanitor
+Version: 0.24.0
+Summary: Tools for cleaning pandas DataFrames
+Home-page: https://github.com/pyjanitor-devs/pyjanitor
+Author: pyjanitor devs
+Author-email: ericmajinglong@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: natsort
+Requires-Dist: pandas-flavor
+Requires-Dist: multipledispatch
+Requires-Dist: scipy
+Requires-Dist: lazy-loader
+Provides-Extra: all
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: mkdocstrings (<0.18) ; extra == 'all'
+Requires-Dist: mkdocs-material ; extra == 'all'
+Requires-Dist: mkdocs ; extra == 'all'
+Requires-Dist: pytest-xdist ; extra == 'all'
+Requires-Dist: darglint ; extra == 'all'
+Requires-Dist: ipython (>7.31.1) ; extra == 'all'
+Requires-Dist: isort (>=4.3.18) ; extra == 'all'
+Requires-Dist: hypothesis (>=4.4.0) ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pyspark ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: biopython ; extra == 'all'
+Requires-Dist: interrogate ; extra == 'all'
+Requires-Dist: pytest (>=3.4.2) ; extra == 'all'
+Requires-Dist: black (>=19.3b0) ; extra == 'all'
+Requires-Dist: unyt ; extra == 'all'
+Requires-Dist: pandas-vet ; extra == 'all'
+Requires-Dist: py (>=1.10.0) ; extra == 'all'
+Requires-Dist: pip-tools ; extra == 'all'
+Provides-Extra: biology
+Requires-Dist: biopython ; extra == 'biology'
+Provides-Extra: chemistry
+Requires-Dist: tqdm ; extra == 'chemistry'
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: isort (>=4.3.18) ; extra == 'dev'
+Requires-Dist: black (>=19.3b0) ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material ; extra == 'docs'
+Requires-Dist: mkdocstrings (<0.18) ; extra == 'docs'
+Requires-Dist: ipython (>7.31.1) ; extra == 'docs'
+Requires-Dist: biopython ; extra == 'docs'
+Requires-Dist: tqdm ; extra == 'docs'
+Requires-Dist: unyt ; extra == 'docs'
+Requires-Dist: pyspark ; extra == 'docs'
+Provides-Extra: engineering
+Requires-Dist: unyt ; extra == 'engineering'
+Provides-Extra: spark
+Requires-Dist: pyspark ; extra == 'spark'
+Provides-Extra: test
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: pytest (>=3.4.2) ; extra == 'test'
+Requires-Dist: hypothesis (>=4.4.0) ; extra == 'test'
+Requires-Dist: interrogate ; extra == 'test'
+Requires-Dist: pandas-vet ; extra == 'test'
+Requires-Dist: py (>=1.10.0) ; extra == 'test'
+

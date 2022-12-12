@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: wsgi-oauth2
+Version: 0.2.2
+Summary: Simple WSGI middleware for OAuth 2.0
+Home-page: https://dahlia.github.io/wsgi-oauth2/
+Author: Hong Minhee
+Author-email: hong.minhee@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Requires-Python: !=3.0.*,!=3.1.*,<4,>=2.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+
+wsgi-oauth2
+===========
+
+.. image:: docs/_static/oauth2.png
+
+This module provides a simple WSGI middleware that requires the user to
+authenticate via the specific `OAuth 2.0`_ service, e.g., Facebook_, Google_,
+GitHub_.
+
+You can install the package via downloading from PyPI_:
+
+.. code-block:: console
+
+   $ pip install wsgi-oauth2
+
+Read the documentation_ as well.
+
+.. _OAuth 2.0: https://oauth.net/2/
+.. _Facebook: https://www.facebook.com/
+.. _Google: https://www.google.com/
+.. _GitHub: https://github.com/
+.. _PyPI: https://pypi.org/project/wsgi-oauth2/
+.. _documentation: https://dahlia.github.io/wsgi-oauth2/
+
+
+
